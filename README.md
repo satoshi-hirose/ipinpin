@@ -18,11 +18,10 @@ This is the MATLAB implementatation of the second-level statistical test for the
     H    : 1 if Prob < alpha, 0 otherwise<br>
     Prob : Probability of null hypothesis is rejected<br>
     stat: (structure)<br>
-    .prob_min minimum probability. should be smaller than alpha.<br>
-    .param          predetermined parameters (g_0,i,alpha) <br>
-    & number of subjects (N), number of permutations(Np)<br>
-    .order_stat     i-th order statistic of S (real number)<br>
-    .P_0<br>
+       .prob_min minimum probability. should be smaller than alpha.<br>
+       .param          predetermined parameters (g_0,i,alpha) & number of subjects (N), number of permutations(Np)<br>
+       .order_stat     i-th order statistic of S (real number)<br>
+       .P_0<br>
 
 After the first-level analysis is completed, we achive first-level summary statistics for each participant (SD). Also, by performing permutation test or other empirical test, we obtain samples from null distribution (PD).
 i-pinpin reqires three predetermined parameters, that is, g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
