@@ -14,7 +14,6 @@ This is the MATLAB implementatation of the second-level statistical test for the
     i          : Index of order statistics (Postive Integer, default: 1)
     alpha  : statistical threshold (Real number between 0 and 1 default:0.05)
     homogeneity : 1 if you assume the homogeneity of DA distribution among participants (boolean, default: 0)
-    
  Output:
     H    : 1 if Prob < alpha, 0 otherwise
     Prob : Probability of null hypothesis is rejected
