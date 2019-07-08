@@ -6,7 +6,8 @@ This is the MATLAB implementatation of the second-level statistical test for the
  ipipi.m 
     [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)
     (N: Number of participant, Np: Number of permutatiuon for each participant)
-    Inputs:
+ 
+ Inputs:
     SD      : Sample Decoding Accuracies from experiment (N x 1 matrix)
     PD      : Permutation Decoding Accuracies (N x Np matrix)
     g_0     : Prevalence threshold, gannma0 (Real number between 0 and 1 default:0.5)
@@ -14,7 +15,7 @@ This is the MATLAB implementatation of the second-level statistical test for the
     alpha  : statistical threshold (Real number between 0 and 1 default:0.05)
     homogeneity : 1 if you assume the homogeneity of DA distribution among participants (boolean, default: 0)
     
-    Output:
+ Output:
     H    : 1 if Prob < alpha, 0 otherwise
     Prob : Probability of null hypothesis is rejected
     stat: (structure)
@@ -24,6 +25,6 @@ This is the MATLAB implementatation of the second-level statistical test for the
     .order_stat     i-th order statistic of S (real number)
     .P_0            
 -----------------------------------------------------------------------------------------------------------    
-    After the first-level analysis is completed, we achive first-level summary statistics for each participant (SD). Also, by performing permutation test or other empirical test, we obtain samples from null distribution (PD).
-    i-pinpin reqires three predetermined parameters, that is, g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
-    There is two slightly different versions of i-pinpin; with and without hypothesis of homogenity among subjects.
+After the first-level analysis is completed, we achive first-level summary statistics for each participant (SD). Also, by performing permutation test or other empirical test, we obtain samples from null distribution (PD).
+i-pinpin reqires three predetermined parameters, that is, g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
+There is two slightly different versions of i-pinpin; with and without hypothesis of homogenity among subjects.
