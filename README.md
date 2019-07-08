@@ -13,8 +13,8 @@ This is the MATLAB implementatation of the second-level statistical test for the
     g_0     : Prevalence threshold, gannma0 (Real number between 0 and 1 default:0.5)<br>
     i          : Index of order statistics (Postive Integer, default: 1)<br>
     alpha  : statistical threshold (Real number between 0 and 1 default:0.05)<br>
-    homogeneity : 1 if you assume the homogeneity of DA distribution among participants (boolean, default: 0)<br>
- Output:<br><br>
+    homogeneity : 1 if you assume the homogeneity of DA distribution among participants (boolean, default: 0)<br><br>
+ Output:<br>
     H    : 1 if Prob < alpha, 0 otherwise<br>
     Prob : Probability of null hypothesis is rejected<br>
     stat: (structure)<br>
