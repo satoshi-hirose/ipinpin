@@ -26,9 +26,4 @@ This is the MATLAB implementatation of the second-level statistical test for the
 -----------------------------------------------------------------------------------------------------------    
     After the first-level analysis is completed, we achive first-level summary statistics for each participant (SD). Also, by performing permutation test or other empirical test, we obtain samples from null distribution (PD).
     i-pinpin reqires three predetermined parameters, that is, g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
-    There is two slightly different versions of i-pinpin; with and without hypothesis of homogenity among subjects. 
-    
-    
-
-
-
+    There is two slightly different versions of i-pinpin; with and without hypothesis of homogenity among subjects.
