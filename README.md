@@ -2,7 +2,7 @@
 
 This is the MATLAB implementatation of the second-level statistical test for the decoding accuracy proposed by Hirose, 2019 (https://doi.org/10.1101/578930). The method is an extension of Permutation-based prevalence inference using the minimum statistic, proposed by Allefeld et al., (https://github.com/allefeld/prevalence-permutation/, Carsten Allefeld, Kai Görgen and John-Dylan Haynes, 'Valid population inference for information-based imaging: From the second-level t-test to prevalence inference', NeuroImage 2016).
  i-pinpin provide a way to perform the group-level statistical test for informaiton-like measures, e.g. classification accuracy, Mahalanobis distance, similarity index etc. 
- 
+******************************************************************************************************************
  ipipi.m 
     [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)<br>
     (N: Number of participant, Np: Number of permutatiuon for each participant)
@@ -26,3 +26,4 @@ This is the MATLAB implementatation of the second-level statistical test for the
 After the first-level analysis is completed, we achive first-level summary statistics for each participant (SD). Also, by performing permutation test or other empirical test, we obtain samples from null distribution (PD).
 i-pinpin reqires three predetermined parameters, that is, g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
 There is two slightly different versions of i-pinpin; with and without hypothesis of homogenity among subjects.
+******************************************************************************************************************
