@@ -8,21 +8,21 @@ This is the MATLAB implementatation of the second-level statistical test for the
     (N: Number of participant, Np: Number of permutatiuon for each participant)
  
  Inputs:<br>
-    SD      : Sample Decoding Accuracies from experiment (N x 1 matrix)
-    PD      : Permutation Decoding Accuracies (N x Np matrix)
-    g_0     : Prevalence threshold, gannma0 (Real number between 0 and 1 default:0.5)
-    i          : Index of order statistics (Postive Integer, default: 1)
-    alpha  : statistical threshold (Real number between 0 and 1 default:0.05)
-    homogeneity : 1 if you assume the homogeneity of DA distribution among participants (boolean, default: 0)
- Output:
-    H    : 1 if Prob < alpha, 0 otherwise
-    Prob : Probability of null hypothesis is rejected
-    stat: (structure)
-    .prob_min minimum probability. should be smaller than alpha.
-    .param          predetermined parameters (g_0,i,alpha) 
-    & number of subjects (N), number of permutations(Np)
-    .order_stat     i-th order statistic of S (real number)
-    .P_0            
+    SD      : Sample Decoding Accuracies from experiment (N x 1 matrix)<br>
+    PD      : Permutation Decoding Accuracies (N x Np matrix)<br>
+    g_0     : Prevalence threshold, gannma0 (Real number between 0 and 1 default:0.5)<br>
+    i          : Index of order statistics (Postive Integer, default: 1)<br>
+    alpha  : statistical threshold (Real number between 0 and 1 default:0.05)<br>
+    homogeneity : 1 if you assume the homogeneity of DA distribution among participants (boolean, default: 0)<br>
+ Output:<br>
+    H    : 1 if Prob < alpha, 0 otherwise<br>
+    Prob : Probability of null hypothesis is rejected<br>
+    stat: (structure)<br>
+    .prob_min minimum probability. should be smaller than alpha.<br>
+    .param          predetermined parameters (g_0,i,alpha) <br>
+    & number of subjects (N), number of permutations(Np)<br>
+    .order_stat     i-th order statistic of S (real number)<br>
+    .P_0<br>
 
 After the first-level analysis is completed, we achive first-level summary statistics for each participant (SD). Also, by performing permutation test or other empirical test, we obtain samples from null distribution (PD).
 i-pinpin reqires three predetermined parameters, that is, g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
