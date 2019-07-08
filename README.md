@@ -4,7 +4,7 @@ This is the MATLAB implementatation of the second-level statistical test for the
  i-pinpin provide a way to perform the group-level statistical test for informaiton-like measures, e.g. classification accuracy, Mahalanobis distance, similarity index etc. 
  
  ipipi.m 
-    [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)
+    [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)<br>
     (N: Number of participant, Np: Number of permutatiuon for each participant)
  
  Inputs:<br>
