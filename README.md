@@ -7,7 +7,7 @@ This is the MATLAB implementatation of the second-level statistical test for the
     [H, prob, stat] = ipipi(SD,PD,g_0,i,alpha,homogeneity)
     (N: Number of participant, Np: Number of permutatiuon for each participant)
  
- Inputs:
+ Inputs:<br>
     SD      : Sample Decoding Accuracies from experiment (N x 1 matrix)
     PD      : Permutation Decoding Accuracies (N x Np matrix)
     g_0     : Prevalence threshold, gannma0 (Real number between 0 and 1 default:0.5)
