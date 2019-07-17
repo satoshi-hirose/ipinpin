@@ -27,7 +27,12 @@ ipipi.m (Implementation of iPinPin)
  SD is the test statistic obatained from first-level analyses (e.g. decoding accuracy), while PD are samples from null distribution normally obtained by permutation test.
  Original version of iPinPin does not reqire the assumption of homogeneity of the null distribution among participants. If the homogeneity can be assumed, set homogeneity=1, which saves computational costs, particularly when the number of participants are larege.
  Three free parameters are g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
-
 ******************************************************************************************************************
+Real_Experimental_Results.mat
+ This is MATLAB data file includes a part of results form Hirose, Nambu, Naito 2018, Cortical activation associated with motor preparation can be used to predict the freely chosen effector of an upcoming movement and reflects response time: An fMRI decoding study https://doi.org/10.1016/j.neuroimage.2018.08.060), which is provded for the check of the iPinPin reproducibility.
+ The file include two matrices, SD and PD. SD (12 x 1 matrix) include decoding accuracies obtained from the experiment for 12 participants, while PD (12 x 1,000) is the permutation results.
+******************************************************************************************************************
+
+
 The other .m files are for theoretical evaluation of the statistivcal power.
 Readme for these files will be uploaded soon.
