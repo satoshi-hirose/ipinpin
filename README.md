@@ -26,7 +26,7 @@ ipipi.m (Implementation of iPinPin)
  It takes two main inputs (SD and PD), as well as three numeric parameters (g_0, i, alpha) and one boolean parameter (homogeneity).
  SD is the test statistic obatained from first-level analyses (e.g. decoding accuracy), while PD are samples from null distribution normally obtained by permutation test.
  Original version of iPinPin does not reqire the assumption of homogeneity of the null distribution among participants. If the homogeneity can be assumed, set homogeneity=1, which saves computational costs, particularly when the number of participants are larege.
- Three free parameters are g_0, i and alpha. For detail of the parameters, please see the original paper (Hirose 2019).
+ For detail of the parameters, please see the original paper (Hirose 2019).
 ******************************************************************************************************************
 Apply_Real_Experimental_Results.m 
  The code for reproducibility of ipipi.m. Please save Apply_Real_Experimental_Results.m and Real_Experimental_Results.mat to the same directory and run the script.
